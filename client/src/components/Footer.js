@@ -57,14 +57,19 @@ const Footer = () => {
         
         <div className="feedback">
           <h4>Feedback</h4>
-          <form>
-            <input type="text" placeholder="Your Name" required />
+          <form class="form-styles">
+            <div class><input type="text" placeholder="Your Name" required />
             <input type="email" placeholder="Your Email" required />
             <textarea placeholder="Your Message" required></textarea>
+            </div>
+            <div class="rightmost">
+            <img width="130px" alt="videocall icon" src="video-icon.png"></img>
             <button type="submit">Send</button>
+            </div>
           </form>
         </div>
-      </div>
+        </div>
+
       <div className="bottom">
         <p>&copy; {new Date().getFullYear()} ConnectFace. All rights reserved.</p>
       </div>

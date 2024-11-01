@@ -1,9 +1,10 @@
 .footer {
-  background: linear-gradient(#111827, #000000);
+  background: #0A142D;
   color: #fff;
   padding: 2rem 1rem;
   backdrop-filter: blur(10px);
   text-align: center;
+  padding-top: 4rem;
 }
 
 .footerContent {
@@ -14,6 +15,24 @@
   gap: 2rem;
   max-width: 1200px;
   margin: auto;
+}
+
+.form-styles {
+  display: flex;
+  flex-direction: row; /* Aligns items in a horizontal row */
+  justify-content: space-between; /* Spaces items evenly */
+  align-items: center; /* Aligns items vertically in the center */
+}
+
+img {
+  margin: 17%;
+  margin-bottom: 2.3%;
+  opacity: 0.9;
+}
+
+.rightmost {
+  margin-bottom: 3.5%;
+  margin-left: 4%;
 }
 
 .quickLinks, .feedback {
@@ -27,6 +46,7 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-left: -10%;
 }
 
 .column {
@@ -49,6 +69,7 @@ h4 {
 
 .list li {
   margin: 0.5rem 0;
+  margin-left: 1rem;
 }
 
 .list a {
@@ -71,6 +92,7 @@ h4 {
 
 .feedback {
   text-align: left;
+  margin-right: 6%;
 }
 
 .feedback input, .feedback textarea {
@@ -79,7 +101,7 @@ h4 {
   padding: 0.5rem;
   border: 1px solid #000000;
   border-radius: 4px;
-  background-color: #2f2f2f;
+  background-color: #293044;
 }
 
 .feedback input:hover, .feedback textarea:hover {
@@ -88,13 +110,14 @@ h4 {
 
 .feedback button {
   padding: 0.5rem 2rem;
+  margin: 15%;
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: fit-content;
+  width: 9rem;
 }
 
 .feedback button:hover {
@@ -102,9 +125,10 @@ h4 {
 }
 
 .bottom {
-  border-top: 1px solid rgb(19, 153, 255);
-  padding-top: 1rem;
-  margin-top: 1rem;
+  border-top: 1px solid #0e3258 ;
+  padding-top: 1.3rem;
+  margin-top: 2.8rem;
+  color: #9b9c9f;
   font-size: 0.8rem;
 }
 
